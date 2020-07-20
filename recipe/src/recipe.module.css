@@ -1,13 +1,48 @@
 .recipe {
     border-radius: 10px;
-    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    box-shadow: 5px 5px 15px rgb(71, 71, 71);
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background: white;
     align-items: center;
-    min-width: 450px;
-    max-width: 450px;
+    min-width: 500px;
+    max-width: 500px;
     padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.ingredients {
+    margin-right: 16px;
+}
+
+.servings {
+    margin-top: -15px;
+    font-size: .8rem;
+}
+
+.image {
+    border-radius: 8px;
+    height: 225px;
+    width: 225px;
+}
+
+.calories {
+    font-size: 1.1rem;
+}
+
+.macros {
+    font-size: .85rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: -12px;
+}
+
+.warning {
+    flex-wrap: wrap;
+    font-size: .65rem;
 }

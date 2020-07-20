@@ -1,6 +1,13 @@
 .App {
   min-height: 100vh;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  overflow: hidden;
+}
+
+.title {
+  padding-top: 2vh;
+  margin: 0px;
+  text-align: center;
 }
 
 .search-form{
@@ -30,3 +37,29 @@
 }
 
 
+.ad {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: #5ADBC5; */
+  color: black;
+  text-align: right;
+}
+
+.name {
+  font-size: 10px;
+  font-family: inherit;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.name #watermark {
+  background-color: white;
+  padding: .5rem;
+  border-radius: 20px;
+  box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
+}
